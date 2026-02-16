@@ -19,7 +19,7 @@
   max-width: 100%;
 }
 
-.sobreImgEsquerda{
+.sobreImgEsquerda {
   grid-area: 1/1;
 }
 
@@ -64,10 +64,10 @@ strong {
 
 @media (max-width: 530px) {
   .sobreFigure {
-  grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr;
+  }
 
-.sobreImgEsquerda{
-  grid-area: 2/1;
-}
+  .sobreImgEsquerda {
+    grid-area: 2/1;
+  }
 }

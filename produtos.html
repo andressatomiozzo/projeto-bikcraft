@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <meta name="description" content="Velo & Vogue, mais que uma marca de bicicletas, um desejo - produtos">
-    <meta name="author" content="Andressa Tomiozzo">
-    <meta name="keywords" content="bicicleta, personalização, exclusividade">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Velo & Vogue, mais que uma marca de bicicletas, um desejo - produtos" />
+    <meta name="author" content="Andressa Tomiozzo" />
+    <meta name="keywords" content="bicicleta, personalização, exclusividade" />
+    <meta name="robots" content="index, follow" />
     <title>Velo & Vogue</title>
   </head>
   <body>
@@ -22,9 +22,41 @@
         </ul>
       </nav>
     </header>
-    
+    <main id="mainProdutos">
+      <h1 id="produtosH1">Nossos Produtos</h1>
+      <section>
+        <article class="produtosContainer">
+          <div class="produtosContent">
+            <h2 class="nomeBike">Christine</h2>
+            <p>A Christine foi feita para você que é louco por ciclismo e não abre mão da tecnologia no seu esporte favorito.</p>
+          </div>
+          <img class="produtosImg" src="img/imagens/christine.png" alt="Imagem do modelo Christine" />
+        </article>
+        <article class="produtosContainer">
+          <div class="produtosContent">
+            <h2 class="nomeBike">Herbie 53</h2>
+            <p>Vintage is the new black.</p>
+            <p>Para a sua alegria o modelo lançado em 1997 está de volta, em duas versões: Black e Brown</p>
+          </div>
+          <div class="herbieGallery">
+            <button class="produtosBtn" id="prevBtn">←</button>
+            <img class="thumb produtosImg" id="herbieBlack" src="img/imagens/herbie_53_black.png" alt="Imagem do modelo Herbie 53 black" />
+            <img class="thumb produtosImg" id="herbieBrown" src="img/imagens/herbie_53_brown.png" alt="Imagem do modelo Herbie 53 brown" />
+            <button class="produtosBtn" id="nextBtn">→</button>
+          </div>
+        </article>
+        <article class="produtosContainer">
+          <div class="produtosContent">
+            <h2 class="nomeBike">Nimbus 2000</h2>
+            <p>Dizem que a vida é curta demais para ir devagar, aproveite o melhor da vida com a Nimbus 2000, nosso modelo high speed.</p>
+          </div>
+          <img class="produtosImg" src="img/imagens/nimbus_2000.png" alt="Imagem do modelo Nimbus 2000" />
+        </article>
+      </section>
+    </main>
     <footer>
       <p>Velo & Vogue. Alguns Direitos Reservados.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

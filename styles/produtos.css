@@ -1,0 +1,76 @@
+#produtosH1 {
+  text-align: center;
+  margin: 60px;
+  font-size: 2.7rem;
+}
+
+#mainProdutos {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.produtosContainer {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 20px;
+  margin: 60px 0;
+}
+
+.produtosImg {
+  width: 100%;
+  grid-area: 1/1;
+}
+
+.herbieGallery {
+  grid-area: 1/1;
+  position: relative;
+}
+
+#herbieBrown {
+  display: none;
+}
+
+.produtosBtn {
+  position: absolute;
+  background-color: rgba(163, 163, 163, 0.411);
+  padding: 3px 13px 5px 13px;
+}
+
+#prevBtn {
+  top: 50%;
+  display: none;
+}
+
+#nextBtn {
+  /* top: calc(50%-28px); */
+  top: 50%;
+  right: 0px;
+}
+
+.produtosContent {
+  margin: auto 0;
+}
+
+.nomeBike {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 515px) {
+  #produtosH1{
+  margin: 0 0 -30px 0;
+  }
+  #mainProdutos {
+    padding: 20px;
+  }
+  .produtosContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .produtosImg {
+    margin: auto;
+    grid-area: 2/1;
+  }
+  .herbieGallery {
+    grid-area: 2/1;
+  }
+}
