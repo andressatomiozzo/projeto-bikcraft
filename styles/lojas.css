@@ -1,1 +1,46 @@
 @import "geral.css";
+
+body {
+  background-color: white;
+}
+
+main {
+  padding: 0 20px;
+}
+
+.navegador {
+  background-color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  margin: 60px;
+  font-size: 2.7rem;
+}
+
+section {
+  background-color: #f7f7f7;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px;
+}
+
+h2 {
+  padding: 30px 0 10px 0;
+}
+
+#primeiroH2 {
+  padding-top: 0;
+}
+
+p {
+  padding: 0 0 0 30px;
+}
+
+
+@media (max-width: 630px) {
+h1 {
+  margin: 20px;
+}
+}
