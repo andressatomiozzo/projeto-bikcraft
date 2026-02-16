@@ -96,12 +96,7 @@
   font-size: 1.3rem;
 }
 
-footer {
-  text-align: center;
-  background-color: white;
-  padding: 40px;
-  font-size: 1.3rem;
-}
+
 
 @media (max-width: 1000px) {
   #conteudo_container {

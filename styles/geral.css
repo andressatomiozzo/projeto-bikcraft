@@ -47,6 +47,13 @@ ul {
   border: 2px solid red;
 }
 
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  font-size: 1.3rem;
+}
+
 @media (max-width: 630px) {
   html {
     font-size: 80%;
