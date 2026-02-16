@@ -1,0 +1,45 @@
+@import "geral.css";
+
+main {
+  max-width: 1200px;
+  min-height: 400px;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/imagens/60913917_abstract_pattern_design_background_2008.jpg);
+  background-repeat: repeat-x;
+  border-radius: 5px;
+  margin: 20px auto;
+
+  padding: 30px;
+  text-align: center;
+}
+
+textarea {
+  display: block;
+  width: 500px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.inputs {
+  margin-top: 10px;
+}
+
+input,
+textarea,
+select {
+  border: 2px solid white;
+  background-color: #f0ece8;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 20px;
+  border: 2px solid #838383;
+  background-color: white;
+  font-weight: bold;
+  color: #383838;
+}

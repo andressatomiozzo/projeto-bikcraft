@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/contato.css" />
-    <meta name="description" content="Velo & Vogue, mais que uma marca de bicicletas, um desejo - contato">
-    <meta name="author" content="Andressa Tomiozzo">
-    <meta name="keywords" content="bicicleta, personalização, exclusividade">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Velo & Vogue, mais que uma marca de bicicletas, um desejo - contato" />
+    <meta name="author" content="Andressa Tomiozzo" />
+    <meta name="keywords" content="bicicleta, personalização, exclusividade" />
+    <meta name="robots" content="index, follow" />
     <title>Velo & Vogue</title>
   </head>
   <body>
@@ -22,6 +22,35 @@
         </ul>
       </nav>
     </header>
+
+    <main>
+      <h1>Contato</h1>
+      <form>
+        <div class="inputs">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" required placeholder="Seu Nome">
+        </div>
+        <div class="inputs">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required placeholder="seu.email@mail.com">
+        </div>
+        <div class="inputs">
+          <label for="assunto">Selecione um assunto:</label>
+          <select name="assunto" id="assunto">
+            <option value="modelos_atuais">Modelos atuais</option>
+            <option value="modelos_anteriores">Modelos anteriores</option>
+            <option value="manutencao">Manutenção</option>
+            <option value="lojas">Nossas lojas</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+        <div class="inputs">
+          <label for="mensagem">Escreva a sua mensagem:</label>
+          <textarea name="mensagem" id="mensagem" maxlength="400" required placeholder="Escreva sua mensagem aqui..."></textarea>
+        </div>
+        <button>Enviar</button>
+      </form>
+    </main>
 
     <footer>
       <p>Velo & Vogue. Alguns Direitos Reservados.</p>
